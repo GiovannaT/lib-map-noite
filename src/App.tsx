@@ -7,7 +7,6 @@ function App() {
   return (
     <>
     <Botao title='teste'></Botao>
-    
     </>
   )
 }

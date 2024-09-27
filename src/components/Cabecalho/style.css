@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #cabecalho {
+    background-color: #f8f8f8;
+    width: 100vw; 
+    height: 100px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 40px; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+  }
+  
+  .logo {
+    height: 80px;
+    position: relative;
+  }
+  
+  .pesquisar{
+    width: 400px;
+    height: 40px;
+    background-color: #CC241B;
+    display: flex;  
+    margin-left: 200px;
+    border-radius: 10px;
+  }
+  ::-webkit-input-placeholder {
+    color: #fff;
+  }
+  .botao-menu{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .botao-menu-i {
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .barra-pesquisa{
+    background-color: #CC241B;
+    width: 100%;
+    border: none;
+    color: #EEEEEF;
+    margin-left: 10px;
+  }
+  .botao-pesquisar{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .botao-pesquisar-i{
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .fale-conosco{
+    font-size: 15px;
+    text-align: center;
+    width: 140px;
+    height: 40px;
+    background-color: #CC241B;
+    color: #f8f8f8;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .minha-conta{
+    background-color: #EEEEEF;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    width: 140px;
+    height: 40px;
+    margin: 15px;
+    margin-right: 50px;
+    border: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .notificacao {
+    background-color: #f8f8f8;
+    color: #4b4a4a;
+    font-size: 20px;
+    margin-right: 50px;
+    border: transparent;
+    border-radius: 15px;
+    height: auto;
+    
+  }
+  .notificacao-i{
+    width: 40px;
+    height: 40px;
+    border: none;
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 100px;
+    cursor: pointer;
+  }
+
+  .separador {
+    border-top: 2px solid #969696;
+    border-radius: 10px;
+    width: 100%; 
+    position: fixed; 
+    left: 0; 
+    right: 0; 
+  }
