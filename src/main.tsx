@@ -1,8 +1,9 @@
-import React, { StrictMode } from 'react'
+import React from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
+import AddBook from './pages/addbook';
 import Login from './feature/login/Login';
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/search",
     element: <div>Hello world!</div>,
+  },
+  {
+    path: "/addbook",
+    element: <AddBook/>
   },
 ]);
 

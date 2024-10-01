@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+  width: 794px;
+  height: 500px;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.titulo {
+  text-align: left;
+
+}
+.autor {
+  text-align: left;
+}
+.descricao{
+  text-align: left;
+}
+
+.temas{
+  text-align: left;
+}
+
+.numero-itens{
+  text-align: left;
+}
+
+.texto {
+  width: 764px;
+  height: 39px;
+  border: 1px solid #cac5c5 ;
+}
+
+.comentario {
+  width: 764px;
+  height: 150px;
+  border: 1px solid rgb(202, 197, 197)
+}
+
+.numero::-webkit-input-placeholder {
+  color: black;
+  font-size: 15px;
+}
+.numero {
+  width: 100px;
+  height: 30px;
+  border: 1px solid rgb(202, 197, 197)
+}
+
+.carregar-imagem{
+  display: flex;
+  justify-content: space-around;
+}
+
+.rodape{
+  display: flex;
+  justify-content: space-around;
+}
+.carregar-imagem{
+  margin-top: 10px;
+  width: 200px ;
+  height: 40px;
+  background-color: rgba(75, 193, 210, 0.31);
+  border-radius: 10px;
+}
+
+custom-file-upload {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.custom-file-upload .icon {
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+#file-upload {
+  display: none;
+}
+
+.botao-confirmar{
+  background-color: #CC241B;
+    width: 150px;
+    border: none;
+    color: #EEEEEF;
+    margin-left: 10PX;
+}
