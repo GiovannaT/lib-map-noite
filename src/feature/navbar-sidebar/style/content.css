@@ -1,0 +1,32 @@
+.reservations {
+  padding: 20px;
+}
+
+.reservations h2 {
+  color: red;
+}
+
+.reservation-item {
+  display: flex;
+  align-items: center;
+}
+
+.reservation-item img {
+  width: 100px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.reservation-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-details h3 {
+  margin: 0;
+}
+
+.reservation-details p {
+  margin-top: 5px;
+  color: gray;
+}
