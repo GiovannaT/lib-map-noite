@@ -1,0 +1,15 @@
+.book-list-container {
+    background-color: white;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.filters {
+    margin: 10px;
+}
+
+.book-card {
+    text-align: left;
+    margin: auto;
+}
