@@ -1,0 +1,71 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(./assets/bibliotecafundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+form{
+    max-width: 600px;
+    width: 40rem;
+    background: #fff;
+    padding: 25px 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    color: #333;
+}
+.title{
+    font-size: 75px;
+    font-weight: 1000;
+    text-align: start;
+    color: white;
+    margin-bottom: 10px;
+}
+form .input-box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form .input-box label{
+    font-size: 20px;
+}
+.input-box .field {
+    width: 35rem;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #CC241B;
+    outline: none;
+    border-radius: 6px;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 8px;
+}
+.input-box .field.mess{
+    height: 200px;
+    resize: none;
+}
+
+form button{
+    width: 10rem;
+    height: 55px;
+    background: #CC241B;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 25px;
+    transition: .5s;
+}
+
+form button:hover{
+    background: #8d120c;
+}
